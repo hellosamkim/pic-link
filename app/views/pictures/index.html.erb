@@ -1,5 +1,5 @@
 <% @pictures.each do |picture| %>
   <div class="pic-container">
-    <img src="<%= picture[:url] %>">
+    <a href="/pictures/<%= picture.id %>"><img src="<%= picture[:url] %>"></a>
   </div>
 <% end %>
