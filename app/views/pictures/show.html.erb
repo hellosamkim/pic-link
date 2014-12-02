@@ -2,7 +2,7 @@
   <img src="<%= @picture[:url] %>">
 </div>
 <div class="menu">
-  <a href="<%= @picture.url %>">Link</a> 
+  <a href="<%= @picture.url %>" target="_blank">Link</a> 
   <%= link_to "Delete", @picture, method: :delete, data: {confirm: "Are you sure you want to delete this picture?"}  %>
 </div>
 
