@@ -1,9 +1,15 @@
-<%= form_for @picture do |f| %>
-  <div>
-    <%= f.label "url" %><br>
-    <%= f.text_field "url" %>
-  </div>
-  <div>
-  <%= f.submit "Save" %>
-  </div>
-<% end %>
+<div class="row">
+  <%= form_for @picture do |f| %>
+    <div class="row">
+      <div class="input-field col s12">
+        <%= f.label "url" %><br>
+        <%= f.text_field "url" %>
+      </div>
+    </div>
+    <div>
+
+    <%= f.submit "Submit" %>
+    </div>
+  <% end %>
+</div>
+

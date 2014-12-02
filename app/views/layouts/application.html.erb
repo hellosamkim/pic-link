@@ -5,10 +5,20 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <link type="text/css" rel="stylesheet" href="/materialize.min.css"  media="screen,projection"/>
 </head>
 <body>
-
+<nav>
+  <div class="nav-wrapper">
+    <a href="/" class="brand-logo">Pic Link</a>
+      <ul id="nav-mobile" class="right side-nav">
+        <li><a href="/pictures/new">New</a></li>
+      </ul>
+  </div>
+</nav>
 <%= yield %>
 
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="/materialize.min.js"></script>
 </body>
 </html>

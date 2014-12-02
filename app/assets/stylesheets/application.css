@@ -14,3 +14,17 @@
  *= require_self
  */
 
+nav {
+  height: 35px;
+  line-height: 35px;
+}
+
+nav .brand-logo {
+  margin-left: 10px;
+  font-size: 1.6rem;
+  line-height: 40px;
+}
+
+nav ul a {
+  font-size: 0.9rem;
+}
