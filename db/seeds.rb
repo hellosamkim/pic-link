@@ -41,3 +41,15 @@ Picture.create!(
 Picture.create!(
   :url => "http://cdn.picography.co/seahorse.jpg"
 )
+
+Picture.create!(
+  :url => "http://cdn.picography.co/he-is-watching.jpg"
+)
+
+Picture.create!(
+  :url => "http://cdn.picography.co/chrome-mercedes.jpg"
+)
+
+Picture.create!(
+  :url => "http://cdn.picography.co/street-artists.jpg"
+)

@@ -2,6 +2,10 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.body, html {
+  height: 100%;
+}
+
 .pics-container {
   width: 100%;
   height: 320px;
@@ -36,4 +40,8 @@
 .row .col.l3 {
   padding-right: 0px;
   padding-left: 0px;
+}
+
+.row {
+  height: 100vh;
 }
