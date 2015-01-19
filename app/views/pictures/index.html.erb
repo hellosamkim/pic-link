@@ -1,5 +1,5 @@
 <div class="row">
-  <% @pictures.each do |picture| %>
+  <% @pictures.shuffle.each do |picture| %>
   <div class="col s12 m6 l3">
     <div class="pics-container">
       <a href="/pictures/<%= picture.id %>"><img src="<%= picture[:url] %>"></a>
